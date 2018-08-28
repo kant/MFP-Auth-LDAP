@@ -104,10 +104,10 @@ googleLogin(){
   }
 </pre></code>
 
-####3.2.3 Add the login methods in the authHandler Provider
+#### 3.2.3 Add the login methods in the authHandler Provider
 
 Add the following code in the authHandler.ts file post the login method
-facebookLogin() method invokes the facebook.login method and receives a token. This token is passed to loginWithFb() method where the  MFP WLAuthorization login API is invoked to validate the credentials using the SocialLogin securitycheck. Similar logic is applied by the google login methods - googlePlusLogin() and  loginWithGoogle().
+facebookLogin() method invokes the facebook.login method and receives a token. This token is passed to loginWithFb() method where the MFP WLAuthorization login API is invoked to validate the credentials using the SocialLogin securitycheck. Similar logic is applied by the google login methods - googlePlusLogin() and loginWithGoogle().
 
 <pre><code>
 
